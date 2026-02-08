@@ -5,12 +5,10 @@ This repository contains the **Augmented Inference** extension for **Chronos-2**
 ---
 
 ## 📝 Overview
-Our project focuses on enhancing the zero-shot capabilities of the Chronos-2 foundation model. By adapting the inference phase, we inject transformed versions of the input sequence as covariates to improve local trend adaptation and forecasting accuracy.
+In this extension, we inject transformed versions of the input sequence as covariates in an attempt to increase performance. We also added these covariates as timeseries to be predicted, and combined the additional predictions with the original prediction. 
 
-### 🛠️ Key Features
-* **Non-Invasive Adaptation**: Enhances model behavior without modifying the underlying model weights or external source files.
-* **Dynamic Covariate Injection**: Automatically generates and injects sequence-derived features during the forward pass.
-* **Seamless Integration**: Overrides the standard pipeline logic directly within the execution environment.
+### Results
+Sadly, the results were not promising. Performance declined.
 
 ---
 
