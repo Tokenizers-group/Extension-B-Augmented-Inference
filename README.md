@@ -28,7 +28,7 @@ The "Augmented Inference" extension is implemented by **overriding** the interna
 
 Instead of altering the library's source code, we utilize Python's ability to override class methods at runtime. This allows us to intercept the context before it reaches the transformer core, apply our transformations, and feed them into the model's native covariate channels.
 
-> All implementation logic and benchmarking results are centralized in the `extension.ipynb` notebook for easy reproducibility. One can simply run the full notebook to obtain the results tablefrom the report.
+> All implementation logic and benchmarking code are centralized in the `extension.ipynb` notebook for easy reproducibility. One can simply run the full notebook to obtain the results tablefrom the report.
 
 ---
 
@@ -39,4 +39,4 @@ Instead of altering the library's source code, we utilize Python's ability to ov
 
 ---
 
-*For more details on the benchmarking methodology, please refer to the internal documentation within the notebook.*
+*For more details on the methodology, please refer to the internal documentation within the notebook, or the team report.*
