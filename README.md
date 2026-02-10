@@ -1,6 +1,6 @@
 # 🚀 Augmented Inference for Chronos-2
 
-This repository contains the **Augmented Inference** extension for **Chronos-2**, developed for the 2026 **"The Tokenizers"** submission for the *Deep Natural Language* course at **Politecnico di Torino**.
+This repository contains the **Augmented Inference** extension for **Chronos-2**, developed for the 2026 **"The Tokenizers"** submission for the *Deep Natural Language Processing* course at **Politecnico di Torino**.
 
 ---
 
